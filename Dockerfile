@@ -10,7 +10,7 @@ WORKDIR /home/es
 
 EXPOSE 9200
 
-ENV VERSION=7.13.3
+ENV VERSION=7.14.2
 
 RUN wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-$VERSION-linux-x86_64.tar.gz
 RUN wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-$VERSION-linux-x86_64.tar.gz.sha512
