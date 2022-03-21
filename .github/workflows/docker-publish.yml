@@ -3,7 +3,7 @@ name: publish
 on: [push]
 
 env:
-  TAG: 7.14.2
+  TAG: 7.15.2
 
 jobs:
   publish-docker-image:
